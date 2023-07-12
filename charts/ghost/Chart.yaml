@@ -6,4 +6,5 @@ maintainers:
   - name: Element SRE Team
 
 version: "0.82.0"
+# renovate: image=ghost
 appVersion: "5.38.0-alpine"

@@ -6,8 +6,8 @@ type: application
 
 # This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
-version: 0.1.3
-
+version: "0.1.3"
 # This version number should be incremented each time you make changes
 # to the application.
+# renovate: image=ghcr.io/vector-im/element-call
 appVersion: "v0.3.13"
