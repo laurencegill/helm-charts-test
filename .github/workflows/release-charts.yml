@@ -17,8 +17,6 @@ jobs:
           fetch-depth: 0
 
       - name: Configure Git
-        env:
-          GITHUB_TOKEN: "${{ secrets.ELEMENT_BOT_TOKEN }}"
         run: |
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
@@ -28,5 +26,3 @@ jobs:
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.5.0
-        env:
-          CR_TOKEN: "${{ secrets.ELEMENT_BOT_TOKEN }}"
