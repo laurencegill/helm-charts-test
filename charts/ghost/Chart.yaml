@@ -7,4 +7,4 @@ maintainers:
 
 version: "0.82.0"
 # renovate: image=ghost
-appVersion: "5.38.0-alpine"
+appVersion: "5.81.0-alpine"
